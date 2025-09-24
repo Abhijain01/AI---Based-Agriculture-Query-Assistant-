@@ -1,0 +1,17 @@
+flask
+flask-cors
+google-generativeai
+faiss-cpu
+scikit-learn
+deep_translator
+langdetect
+gtts
+numpy
+joblib
+pymongo
+python-dotenv
+tensorflow
+Pillow
+sentence-transformers
+pydub
+requests
