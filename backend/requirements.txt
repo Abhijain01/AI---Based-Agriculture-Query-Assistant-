@@ -1,7 +1,7 @@
 flask
 flask-cors
 google-generativeai
-faiss-cpu
+dnspython
 scikit-learn
 deep_translator
 langdetect
@@ -12,6 +12,8 @@ pymongo
 python-dotenv
 tensorflow
 Pillow
-sentence-transformers
+gunicorn
 pydub
 requests
+faiss-cpu
+SpeechRecognition
