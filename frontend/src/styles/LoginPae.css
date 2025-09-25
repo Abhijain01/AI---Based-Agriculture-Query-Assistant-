@@ -112,3 +112,13 @@
 .send-otp:hover {
   transform: scale(1.05);
 }
+.error-message {
+  color: #D8000C; /* Red color for errors */
+  background-color: #FFD2D2; /* Light red background */
+  border: 1px solid #D8000C;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 0.9em;
+}
