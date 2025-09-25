@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from pymongo import MongoClient
-CORS(app)
+CORS(app,origins=["https://ai-based-agriculture-query-assistan-topaz.vercel.app"])
 
 # HTTP requests for external APIs
 import requests
