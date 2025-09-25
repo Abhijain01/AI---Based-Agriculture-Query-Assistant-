@@ -15,13 +15,6 @@ from dotenv import load_dotenv
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from pymongo import MongoClient 
-// Instead of this:
-const res = await fetch("https://ai-based-agriculture-query-assistant.onrender.com/send-otp", { ... });
-
-// Do this:
-// This will use your Render URL in production and a localhost URL for development.
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
-const res = await fetch(`${API_URL}/send-otp`, { ... });
 
 # HTTP requests for external APIs
 import requests
