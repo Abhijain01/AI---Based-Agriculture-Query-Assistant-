@@ -10,10 +10,8 @@ numpy
 joblib
 pymongo
 python-dotenv
-tensorflow
 Pillow
 gunicorn
 pydub
 requests
-faiss-cpu
 SpeechRecognition
