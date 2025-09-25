@@ -16,6 +16,7 @@ from dotenv import load_dotenv
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from pymongo import MongoClient
+CORS(app)
 
 # HTTP requests for external APIs
 import requests
