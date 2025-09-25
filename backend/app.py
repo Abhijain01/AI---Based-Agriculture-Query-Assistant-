@@ -1,4 +1,4 @@
-```python
+
 # app.py - Integrated Flask backend with ML, OTP, user, marketplace, and utilities
 # Optimized for Render free tier: lazy model loading, optional heavy deps, dynamic PORT binding.
 
